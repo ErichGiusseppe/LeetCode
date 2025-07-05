@@ -1,4 +1,5 @@
 from math import ceil
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         str_int = str(x)
