@@ -1,6 +1,8 @@
 class Solution:
     def fib(self, n: int) -> int:
+
         guardado_fibo = [0 for i in range(0,n+1)]
+        
         if n >=1:
             guardado_fibo[1] = 1
         for i in range(2, n+1):
